@@ -2,7 +2,7 @@ import re
 import os
 from dumpmeta import dumpmeta
 chapters = list()
-inpttxt = input("please drag your readable chapter file to create video chapters:")
+inpttxt = input("please drag (or provide path address WITH all scaping \\\'s) your readable chapter file to create video chapters:")
 inptvid = input("please drag your videos as well:")
 
 beautiful_directory_for_vid = inptvid.replace(os.path.basename(inptvid), '')

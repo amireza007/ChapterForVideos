@@ -3,7 +3,7 @@ from dumpmeta import dumpmeta
 
 text=""
 
-inpt = input('please drag your video here to produce a readlbe chapter txt file:')
+inpt = input('please drag (or paste the path WITH all scaping \\) your video here to produce a readlbe chapter txt file:')
 beautiful_directory = inpt.replace(os.path.basename(inpt), '')
 file_directory = beautiful_directory.replace('\\', '')
 

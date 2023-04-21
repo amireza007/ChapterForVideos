@@ -27,6 +27,8 @@ The way it attaches chapters is by creating a two copies of the video (temporary
 
 ## TODO:
 ### Exception handling:
-#### The code **does not** provide any means of exception handling and you may encounter some exceptions.
+ The code **does not** provide any means of exception handling and you may encounter some exceptions.
 ### A nice and very useful UI: 
-#### For entering h:mm:ss and chapter title 
+For entering h:mm:ss and chapter title 
+### problem when having a single chapter:
+When you add a single chapter, there would be a **default end chapter** and the position of this chapter is **BAD!** (1 sec ahead of the first chapter)

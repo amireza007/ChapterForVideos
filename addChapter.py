@@ -2,6 +2,7 @@ import re
 import os 
 
 print("\nATTENTION:\n Please Take note that this script works only if you have a macOS machine and installed FFmpeg\n\n")
+print("we will be changing that very soon and make it compatible with Windows OS,as well!")
 
 print("To create a readable chapter of a video, type 1 and press enter.")
 print ("To use your readable chapter file to add video chapters, type 2 and press enter")

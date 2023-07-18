@@ -32,3 +32,4 @@ The way it attaches chapters is by creating a two copies of the video (temporary
 For entering h:mm:ss and chapter title 
 ### problem when having a single chapter:
 When you add a single chapter, there would be a **default end chapter** and the position of this chapter is **BAD!** (1 sec ahead of the first chapter)
+### Using python coroutines or multithreading to show the famous animation in terminals: \-|-\ 

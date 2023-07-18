@@ -24,10 +24,15 @@ while b:
         print()
     elif mode == '1': 
         import getReadableChapter
+        print("Done!")
         b = False
     elif mode == '2':
         import attatchChapterToVid
+        # print(attatchChapterToVid.bash)
+        if (input("\n\nDone!\nThere is a backup version, named v1*.mp4 \nWould you like delete the previous version of the video?\n(type 1 if so, otherwise, type something else)") == "1"):
+            os.system("rm v1"+ attatchChapterToVid.vid_filename) 
         b = False
+
     elif mode == '0': b = False
     else: 
         print("\nNot correct input!")

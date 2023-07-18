@@ -76,6 +76,5 @@ os.chdir(vid_directory)
 # vid_filename = os.path.basename(inptvid).replace('\\', '')
 # vid_filename = vid_filename.strip()
 vid_filename = os.path.basename(inptvid)
-print(vid_filename)
-bash = "ffmpeg -i " + inptvid  + " -map_chapters -1 -c copy temp.mp4 && ffmpeg -i temp.mp4 -i " + beautiful_directory_for_txt+"FFMETADATAFILE.txt -map_metadata 1 -codec copy ./v2" + vid_filename +"&& rm temp.mp4 && mv " + vid_filename + " v1" + vid_filename + " && mv v2"+ vid_filename + " " + vid_filename
+bash = "ffmpeg -hide_banner -loglevel quiet -i " + inptvid  + " -map_chapters -1 -c copy temp.mp4 && ffmpeg -hide_banner -loglevel quiet -i temp.mp4 -hide_banner -loglevel warning -i " + beautiful_directory_for_txt+"FFMETADATAFILE.txt -map_metadata 1 -codec copy ./v2" + vid_filename +"&& rm temp.mp4 && mv " + vid_filename + " v1" + vid_filename + " && mv v2"+ vid_filename + " " + vid_filename
 os.system(bash)

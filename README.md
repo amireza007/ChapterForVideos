@@ -23,7 +23,7 @@ When you are editting chapter txt file, be careful to **NOT TO** write single-di
 Once you have finished adding your chapters to the readable txt file, in order for you to attatch it to the video, you need to run `python addChapter.py` once more and type 2. 
 
 Then you are prompted to drag your readable txt file and then your video itself. \
-The way it attaches chapters is by creating a two copies of the video (temporary and the output) and makes changes to the output and then delete the temporary file and ~~the original one and rename the output to the original video's name.~~ keep the previous version and let you choose to delete it (because you just might endup losing your chapters by attaching wrong chapter file to the video).
+The way it attaches chapters is by creating a two copies of the video (temporary and the output) and makes changes to the output and then delete the temporary file and ~~the original one and rename the output to the original video's name.~~ keep the previous version (named v1*.mp4) and let you choose to delete it (because you just might endup losing your chapters by attaching wrong chapter file to the video).
 
 ## TODO:
 ### Exception handling:

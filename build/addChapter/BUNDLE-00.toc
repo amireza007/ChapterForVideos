@@ -1,0 +1,3 @@
+([('addChapter',
+   '/Users/amirreza/Projects/python/ChapterForVideos/dist/addChapter',
+   'EXECUTABLE')],)
